@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="pt_br">
+
+    <head>
+        <meta charset=UTF-8>
+        {% block title %}
+            <title>Casa Criativa</title>
+        {% endblock title %}
+        {% include "head.html" %}
+    </head>
+
+    <body id = "{{ bodyId }}"> <!-- using the created variable to reference in the CSS file -->
+
+        <div id="container">
+
+            {% block content %}
+            {% endblock content %}
+
+        </div>
+
+        {% include "modal.html" %}
+
+        <script src="scripts.js"></script>
+
+    </body>
+
+</html>
