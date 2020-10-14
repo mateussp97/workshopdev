@@ -7,6 +7,9 @@
 ## About the project
 This is a web application that registers and displays ideas for activities to do at home during the period of social isolation.
 
+## Web Preview
+![](./public/CasaCriativa.gif)
+
 ## Technology
 This is just the web page, where you can register and list new ideas, and also click on the link that will take you to the page that was saved when registering the idea.
 The main tools used to develop this were:
