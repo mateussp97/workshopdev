@@ -24,4 +24,18 @@ The main tools used to develop this were:
 
 ## To run
 
+#### Clone the repository
+
+`git clone https://github.com/mateussp97/workshopdev`
+
+#### Enter the directory
+
+`cd workshopdev`
+
+#### Download the dependencies
+
+`npm i`
+
+#### Run
+
 Run `npm run dev` and access the application via http://localhost:3000
